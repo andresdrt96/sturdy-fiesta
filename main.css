@@ -1,0 +1,52 @@
+body{
+    background-color:#C9C3C1;
+    
+    h1{
+        font-family:fantasy;
+        font-size: 48pt; 
+    }    
+    h2{
+        Color:#721A16;
+    }
+   
+}
+.Brumoso{
+    border: solid red;
+}
+.Brumoso:hover{
+    transform:rotate(180deg);
+}
+.Sanderson{
+     border: solid red;
+}
+.Sanderson:hover{
+    transform:rotate(180deg);
+}
+
+
+li{
+    display: inline-block;
+    
+}
+li a{ 
+    display: block;
+    width: 100px;
+    height: 50px; 
+    text-indent: -10000px
+}
+
+
+li a:hover{
+    background-position:0 50px;
+    }
+
+#home{ background-image: url(Img/bt-home.png)}
+#personajes{ background-image: url(Img/bt-pjt.png)}
+#Metales{ background-image: url(Img/bt-metales.png)}
+
+
+
+
+
+
+
